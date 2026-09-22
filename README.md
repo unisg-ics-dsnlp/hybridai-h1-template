@@ -40,10 +40,10 @@ uv --version
 
 ### 4. Set Up the Project
 1. Clone your teams Project - if not already done
-2. Initialize the project and pin the python version to 3.12: 
+2. Initialize the project and set the python version to at least 3.12: 
 
 ``` bash
-uv init --bare --python 3.12 --pin-python
+uv init --bare --python 3.12
 ```
 
 3. Now run `uv sync` to create the virtual environment
