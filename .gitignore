@@ -1,0 +1,7 @@
+# Mac os ignore
+.DS_Store
+
+# uv specific python things to ignore
+.venv/
+__pycache__/
+*.pyc
